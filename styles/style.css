@@ -39,11 +39,14 @@
 
 .btn {
   margin-top: 2px;
-  margin-left: 1325px;
+  margin-left: 1290px;
   margin-bottom: 156px;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border: none;
-  color: #005FAC
+  color: #005FAC;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
 }
 
 /* main section */
@@ -66,7 +69,7 @@
 .img-subtitle {
   font-weight: 400;
   font-size: 16px;
-  color: #444343;
+  color: #565657;
   padding-left: 3px;
 }
 
@@ -151,4 +154,81 @@
   font-weight: 600;
   font-size: 20px;
   color: #005FAC;
+}
+
+.background {
+  background: #151414;
+  width: 1600px;
+  height: 570px;
+}
+
+/* footer styles */
+/* footer left part */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-size: covor;
+}
+
+.footer-left {
+  margin: 100px 235px;
+} 
+
+.footer-l-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #F8F8F8;
+}
+
+.footer-l-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.icon {
+  display: flex;
+  gap: 20px;
+  margin: 0 -40px;
+}
+
+/* footer right part */
+.footer-right {
+  margin: 100px 224px;
+}
+
+.footer-r-title {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 31px;
+}
+
+.input-mail {
+  background: #151414;
+  width: 270px;
+  height: 40px;
+  color: #F3F3F3;
+  font-weight: 400;
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: yellow;
+
+}
+
+.subscribe-btn {
+  background: #005FAC;
+  border-radius: 8px;
+  width: 170px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+::placeholder{
+  color: white;
+  opacity: 1;
+  font-size: 12px;
 }
