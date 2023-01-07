@@ -286,3 +286,9 @@ color: #008cff;
   background-color: #444343;
   color: yellow;
 }
+.final-btn:hover{
+  background-color:chartreuse;
+}
+.final-reset-btn:hover{
+  background-color: red;
+}
