@@ -5,7 +5,7 @@
 
 /* banner seection style*/
 .header {
-  background-image: url("/images/banner/banner3.png");
+  background-image: url("../images/banner/banner3.png");
   width: 1600px;
   height: 808px;
 }
