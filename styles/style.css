@@ -48,6 +48,10 @@
   font-size: 15px;
   border-radius: 5px;
 }
+.btn:hover{
+  background-color: rgb(255, 237, 71);
+  color: black;
+}
 
 /* main section */
 .main-header {
@@ -155,6 +159,11 @@
   font-size: 20px;
   color: #005FAC;
 }
+.call-btn:hover{
+  background-color: greenyellow;
+  color: black;
+  
+}
 
 .background {
   background: #151414;
@@ -217,6 +226,10 @@
   color: yellow;
 
 }
+.input-mail:hover{
+  background-color: rgb(51, 0, 255);
+  color: rgb(8, 8, 8);
+}
 
 .subscribe-btn {
   background: #005FAC;
@@ -227,8 +240,50 @@
   font-size: 20px;
   color: #FFFFFF;
 }
+.subscribe-btn:hover{
+  background-color: red;
+}
 ::placeholder{
   color: white;
   opacity: 1;
   font-size: 12px;
+}
+
+/* extra info details part */
+.form{
+  text-align: center;
+  margin: 50px 0;
+ 
+
+}
+.form-list{
+  position: absolute;
+  justify-content: left;
+  background-color: #008cff;
+  padding:40;
+  
+ 
+}
+.list:hover{ color: yellow;
+  background-color: #008cff;
+  display: inline;
+ font-weight: bolder;
+
+}
+.list-description{
+  color: red;
+}
+.list-description:hover{
+  color: red;
+  background-color: #444343;
+  text-align: center;
+}
+
+.religious-description{
+color: #008cff;
+
+}
+.feedback{
+  background-color: #444343;
+  color: yellow;
 }
