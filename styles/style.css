@@ -5,13 +5,13 @@
 
 /* banner seection style*/
 .header {
-  background-image: url("../images/banner/banner3.png");
+  background-image: url("images/banner/banner3.png");
   width: 1600px;
   height: 808px;
 }
 
 .banner {
-  background-image: url("/images/banner/banner3.png");
+  background-image: url("images/banner/banner3.png");
   margin: 0;
 }
 
@@ -130,12 +130,12 @@
 }
 
 .main-last {
-  background-image: url("/images/watch.png");
+  background-image: url("images/watch.png");
   background-repeat: no-repeat;
   margin: 130px 230px;
   width: 1140px;
   height: 300px;
-  background-image: linear-gradient(90deg, #268fe5 0%, rgba(0, 95, 172, 0) 100%), url("/images/watch.png");
+  background-image: linear-gradient(90deg, #268fe5 0%, rgba(0, 95, 172, 0) 100%), url("images/watch.png");
   border-radius: 8px;
 
 }
